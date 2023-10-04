@@ -1,0 +1,23 @@
+//variabel
+// let & const
+
+//operators
+
+// let firstName = "John";
+// let lastName = "Doe";
+
+// console.log("hello nama saya" + firstName + " " + lastName + " ");
+
+// let umur = 35;
+// let isEligible = umur >= 17 ? "anda bisa buat sim" : "anda tdak bisa buat sim";
+// console.log(isEligible);
+
+// function
+
+function greetings(fullName) {
+    // console.log("Hello World")
+    return "Hello" + fullName;
+}
+
+let output = greetings("John Doe");
+console.log(output);
